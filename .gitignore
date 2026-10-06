@@ -1,0 +1,25 @@
+# Private local workflows, media, and results
+/local/
+
+# Large local assets
+/models/
+/outputs/
+
+# Python environments, caches, and compiled files
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Secrets (keep the safe template tracked)
+.env
+.env.*
+!.env.example
